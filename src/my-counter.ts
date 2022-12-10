@@ -54,3 +54,7 @@ export class MyCounter extends FASTElement {
     @observable
     public count: number = 0;
 }
+
+import {registerFAST} from "./fast-counter"
+
+registerFAST()
